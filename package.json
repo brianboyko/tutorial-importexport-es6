@@ -1,0 +1,17 @@
+{
+  "name": "importsexports",
+  "version": "1.0.0",
+  "main": "js/index.js",
+  "license": "MIT",
+  "scripts": {
+    "transpile": "babel js -d lib",
+    "pack": "webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.4.1"
+  }
+}
